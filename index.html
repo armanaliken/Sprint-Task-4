@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PseudoTwitter Login</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="content">
+<div class="navbar">
+    <div class="logo">
+        <h2>TWITTER</h2>
+    </div>
+    <div class="nav">
+        <a href="#"><h3>Tweets</h3></a>
+        <div id="login-or-username">
+            <a href="#" onclick="goToLogin()"><h3>Login</h3></a>
+        </div>
+        <div id="register-or-logout">
+            <a href="#" onclick="goToRegister()"><h3>Register</h3></a>
+        </div>
+    </div>
+</div>
+<div class="form" id="form">
+    <p>EMAIL:</p>
+    <input id="email" type="text">
+    <p>PASSWORD:</p>
+    <input id="password" type="password">
+    <br>
+    <button onclick="login()">SIGN IN</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

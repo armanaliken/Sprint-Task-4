@@ -1,0 +1,46 @@
+.content {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    width: 20%;
+    margin-left: 20px;
+}
+
+.nav {
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 15%;
+}
+
+.form, .welcome {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 0;
+    border-width: 3px;
+}
+
+button {
+    height: 30px;
+    background-color: darkcyan;
+    color: white;
+}
